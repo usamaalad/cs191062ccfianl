@@ -1,0 +1,18 @@
+sudo git init
+sudo git remote add origin 'repo link'
+sudo git add index.html
+sudo git config user.email
+sudo git config user.name
+sudo git commit -m "add commit"
+sudo git branch -M main
+sudo git push -u origin main
+
+
+sudo systemctl start apache2
+sudo systemctl stop apache2
+sudo systemctl restart apache2
+sudo nano /etc/apache2/ports.conf
+ - Edit in listen and port num
+
+
+sudo chmod 777 'filename'
